@@ -1,0 +1,65 @@
+---Today task---
+whenever you create a new project 
+follows these steps-----
+1. create project folder
+2. install virtual env - pip install virtalenv
+3. create virtual env - python -m venv env
+4. activate virtual env - env\Scripts\activate
+5. install flask- pip install flask
+6. create app.py file inside project folder
+7. write your app login into your app.py file.
+8. app run:- python filename.py(like-python app.py)
+
+
+
+project folder struture:-
+project folder
+   app.py 
+   templates
+      index.html
+      about.html
+    static 
+         js 
+            script.js 
+        css 
+            style.css 
+        images 
+            flower.jpg 
+            lion.png 
+
+
+
+flask-work flow 
+
+1. user(sends request from browser)-> 2. route(match) -> 3. flask fun
+(will execute)-> 4. template file(index.html)-> 5. result display on browser
+  
+
+  user-> route -> function -> templates -> result  
+
+
+MVC ?
+M  -> Model (Database)
+V -> UI  (index.html)
+C -> Controller (Login)
+
+
+--------------------------------
+requests(methods)
+1.GET - get data
+2. POST - create data
+3. PUT - update data
+4. PATCH -update partial data
+5. DELETE - delete data 
+
+
+GET :- is faster than POST.
+POST:- For security purpose 
+
+
+
+Assistment
+
+Homework-Assisement-5
+Create New flask project 
+CURD operation 
